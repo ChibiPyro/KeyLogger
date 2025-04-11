@@ -7,7 +7,7 @@ Author: Aleksa Zatezalo
 import socket
 
 # Create Socket
-host = socket.gethostname()
+host = socket.gethostname(philip)
 port = 12345
 s = socket.socket()		# TCP socket object
 s.bind((host,port))
